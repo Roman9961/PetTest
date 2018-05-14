@@ -4,6 +4,7 @@ import Preloader from './Preloader';
 import Header from './Header';
 import About from './About';
 import Features from './Features';
+import Photos from './Photos';
 import 'animate.css'
 
 class Body extends React.Component {
@@ -47,6 +48,7 @@ class Body extends React.Component {
                 <Header isTop = {this.state.isTop}/>
                 <About/>
                 <Features/>
+                <Photos/>
             </React.Fragment>
         )
     }
